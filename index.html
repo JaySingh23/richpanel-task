@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RichPanel Task</title>
+  </head>
+  <body>
+    <div id="root"></div>
+   <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0&appId=6578962202217341&autoLogAppEvents=1"
+        nonce="1Qvyzo6S"
+    ></script> 
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '6578962202217341',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v17.0'
+        });
+      };
+    </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

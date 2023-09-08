@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: #1E4D91;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    height: 30vh;
+    width: 50vh;
+}
+
+.btn{
+    background-color:#1E4D91;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
