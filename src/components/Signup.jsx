@@ -14,7 +14,7 @@ function Signup() {
         e.preventDefault();
 
         try{
-            await axios.post("http://localhost:8000/signup",{
+            await axios.post("https://64fb03231095e26b7f8db321--shiny-truffle-10998f.netlify.app/signup",{
                 userName, email, password
             })
             .then(res=>{
